@@ -30,6 +30,8 @@
 - innodb_ft_min_token_size: 3
 - innodb_ft_enable_stopword: ON
 - Charset da conexão: utf8mb4
+- Collation do banco ific_busca e da tabela cursos: utf8mb4_0900_ai_ci (compara texto ignorando acentos e maiúsculas/minúsculas)
+- Catálogo carregado: 200 cursos em 12 eixos (ementas: 199 do guia e 1 própria)
 
 ## Onde o MySQL roda
 - O MySQL roda na mesma máquina que o Python (host localhost).

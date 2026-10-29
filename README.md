@@ -34,3 +34,16 @@ Por enquanto, só o verificador do ambiente:
 
     python verificar_ambiente.py
 
+
+### Sprint 2: catálogo e Busca 1
+Carregar o catálogo no MySQL (pode rodar mais de uma vez):
+
+    python criar_banco.py
+
+Verificar o catálogo:
+
+    python -m testes.verificar_catalogo
+
+Testar a Busca 1 (LIKE):
+
+    python -m buscadores.busca1_like
